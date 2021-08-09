@@ -1,0 +1,26 @@
+<head>
+  <link rel="stylesheet" href="btcdonations.css">
+</head>
+
+<body>
+  <div id='cen'>
+    <h1>
+      Bitcoin Donations
+    </h1>
+
+    <p class='perbtc'>Received <span id='receivedbtc'>0</span> BTC of our <span id='goalbtc'>0</span> BTC target (<span
+        id='percentagebtc'>0</span>%)</p>
+    <div id='outer'>
+      <div id='donationbar'></div>
+    </div>
+    <p class='subtext'>Donations will go to...</p>
+    <p class='subtext'><a id="donateButton" href="#" class="myButton">Donate!</a>
+    <p class='subtext'><img id="donateQR" src="#"/>
+
+    </p>
+    <p class='addressbtc subtext'></p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="btcdonations.js"></script>
+</body>
