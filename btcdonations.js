@@ -33,7 +33,7 @@ async function getReceived(address) {
 }
 
 // Initialize:
-let donationUri = 'bitcoin:'+address+'?memo='+donorReference;
+let donationUri = 'bitcoin:'+address+'?message='+donorReference;
 $('#donateButton').attr('href', donationUri);
 $('#donateQR').attr('src', 'https://chart.googleapis.com/chart?cht=qr&chs=300x300&chl='+encodeURIComponent(donationUri));
 
